@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>MayukhDrawZ</title>
+ 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ab6043fc00.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+    
+
+    <style>
+      :root{
+            
+            --uni-color:#0099ff;
+            --gradient: linear-gradient(
+        125deg,
+        #2C3E50,
+        #1A237E,
+        #016db4
+  
+    
+     
+    );
+        
+        }
+        /* html,body{
+    height: 100%;
+   } */
+
+          
+         *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            height: 100vh;
+
+
+ background-image: url('web bg6.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+
+
+ background-size: 100% 100%;
+ 
+
+   
+
+    
+
+            
+           
+        
+    
+     
+    
+
+
+           
+            
+             
+
+         
+
+        
+
+        }
+
+      
+
+
+        
+       
+        .body-text h1{
+         
+            font-family: 'Poppins', sans-serif;
+          
+             /* display: flex;
+            align-items: center;
+            justify-content: center; 
+            margin-top: /*-5.625rem -7%;
+            margin-left: /*12rem-7%;*/
+          
+       
+        
+            font-size: 3.125rem;
+            margin-left: 4%;
+            margin-top: 19.5%;
+          
+            color:white;
+          
+
+
+         
+
+
+
+
+
+
+        }
+    
+        
+        #yt-span{ 
+    
+
+      
+            
+
+           border-top-right-radius: 20px;
+           border-bottom-left-radius: 20px;
+           
+            
+        }
+        .social-media{
+            float: right;
+            display: flex;
+            flex-direction: row;
+            gap: 0.5rem;
+            margin-right: 5%;
+
+        }
+        .fa-instagram,.fa-youtube{
+            color: white;
+            font-size: 1.5rem;
+
+        }
+      
+        .fa-instagram:hover,.fa-youtube:hover{
+            color: gray;
+          
+           
+        }
+      
+       
+    
+       
+
+            
+
+            
+        
+        .navbar ul{
+    display: flex;
+    margin-left: 1rem ;
+    margin-right: 0.75rem ;
+    margin-top: 1.125rem;
+  
+
+}
+        
+        
+    
+        .navbar ul li{
+            list-style: none;
+
+        }
+       
+         .navbar ul li a {
+   text-decoration: none;
+
+    margin: 6.25rem; 
+    /* margin-left: 2rem;   <--- use this for  media query of 769px to 1024px
+    margin-right: 2rem; */
+
+ 
+  
+   color: white;
+   font-size: large;
+   font-family: 'Poppins', sans-serif;
+
+  align-items: center;
+  justify-content: center;
+   border-radius: 20px;
+
+
+
+
+}
+        
+    
+    
+   
+        
+
+        .navbar ul li a:hover {
+        cursor:pointer;
+        color: #808080;
+      
+            
+        
+       
+       
+          
+      
+            
+           
+
+        
+      
+
+        
+        
+
+        }
+       
+
+        .logo img{
+            position: relative;
+            top: -0.375rem;
+            left: 2.9375rem;
+            height:2.25rem;
+            border-radius: 1000px;
+           
+        }
+
+
+        .logoResp img{
+            position: relative;
+            top: -0.375rem;
+            left:  1.9375rem;
+            height:2.25rem;
+            border-radius: 1000px;
+        
+            display: none;
+
+            
+            
+        }
+         
+        /* footer{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        .footer-div{
+         
+            color: white;
+         position: absolute;
+         width: 100vw;
+         top: 39.5rem;
+
+            
+        
+
+        } */
+
+        footer p{
+    
+
+     float: left;
+    margin-top: 50vh;
+ 
+
+
+
+  
+   
+
+    
+         text-align: center; 
+         font-family: 'Noto Sans', sans-serif;
+       
+
+    
+
+}
+    
+
+ 
+
+        #span4{
+            color: white;
+            font-family: 'Noto Sans', sans-serif;
+        }
+        .explore{
+            text-decoration: none;
+         background: transparent;
+         border: 1.5px solid white;
+         border-radius: 10px;
+         width: 8.8125rem;
+         display: block;
+         margin-left: 20%;
+        
+         
+         text-align: center;
+         font-family: 'Poppins', sans-serif;
+         color: white;
+         font-size: small;
+            
+        }
+        .explore:hover{
+            color: grey;
+            border-color: grey;
+          
+        }
+        .hamburger{
+   
+            background-color: transparent;
+    border: 3px solid  rgb(255, 115, 0) ;
+    border-radius: 7px;
+    width: 3rem;
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    
+    display: block;
+    width:2.1875rem;
+    margin: 0.3125rem auto;
+    height: 0.25rem;
+    border-radius: 19px;
+
+    background-color: white;
+
+}
+        .fa-solid fa-house-chimney{
+
+    
+            margin-right: 0.125rem;
+
+        }
+        #Home,#Art,#YT,#Contact{
+            padding-right: 0.3125rem;
+           
+
+        }
+        span{
+            color: rgb(255, 115, 0);
+        }
+        #span4{
+
+            font-family: 'Noto Sans', sans-serif;
+        }
+       
+        
+            
+           
+
+   
+
+
+
+
+      
+
+
+
+    
+    
+
+
+
+    
+
+
+
+   
+ 
+   
+
+
+
+
+   /* .hamburger{
+       display: block;
+       cursor: pointer;
+   }
+   .hamburger.active .bar:nth-child(2){
+       opacity: 0;
+   
+   
+   }
+   .hamburger.active .bar:nth-child(1){
+       transform: translateY(8px) rotate(45deg);
+   
+   
+   }
+   .hamburger.active .bar:nth-child(3){
+       transform: translateY(-8px) rotate(-45deg);
+      
+   
+   
+   }
+   .nav-list{
+       position: fixed;
+       left: -100%;
+       flex-direction: column;
+       top: 69px;
+       gap: 0;
+       color: white; 
+       width: 100%;
+       text-align: center;
+       transition: 0.3s;
+   
+   }
+   .nav-item{
+       margin: 16px;
+   
+   }
+   .nav-list.active{
+       left: 0px;
+   }
+   .logo img{
+       left: 6px;
+   } 
+
+
+
+ /*Media query for mobile devices*/
+
+ @media only screen and (min-width:280px) and (max-width:319px){
+    
+.navbar::before{
+  width:150%;
+
+}
+.hamburger{
+    display: block;
+    cursor: pointer;
+    margin-left:/*32.625rem*/82%;
+    margin-right: 2%;
+    margin-top: -3.125rem;
+    position: fixed;
+}
+.hamburger.active .bar:nth-child(2){
+    opacity: 0;
+
+
+}
+.hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+
+
+}
+.hamburger.active .bar:nth-child(3){
+    transform: translateY(-10px) rotate(-45deg);
+   
+
+
+}
+.nav-list{
+position: fixed;
+    left: -100%;
+    flex-direction: column;
+    top: 4.3125rem;
+    gap: 0;
+    color: white; 
+ 
+    text-align: center;
+    transition: 0.3s;
+    text-align: center;
+   
+   
+    margin-top: 0px;
+    background-position-x: right;
+   
+
+
+}
+.nav-item{
+    margin: 2rem;
+    text-align: center;
+    margin-left: -7rem;
+   
+
+}
+.nav-list.active{
+    
+    left: 5.75rem;
+    background-color: rgb(255, 115, 0);
+    right: 0px;
+    height: 100%;
+   margin-top: -69px;
+   text-align: center;
+   width: 100%;
+
+}
+.logoResp img{
+    margin-top:1.1875rem;
+
+   border-radius: 1000px;
+
+    display: inline;
+    
+   }
+   .logo img{
+    display: none;
+   }
+   footer{
+
+    margin-top: 93rem;
+   margin-left: 0;
+  margin-right: 0;
+
+
+
+   }
+   .body-text h1{
+    margin-top: 160.5%;
+   }
+
+ 
+
+
+
+ }
+  
+ @media only screen and (min-width:320px) and (max-width:480px){
+   
+ 
+
+ 
+
+.navbar::before{
+  width:150%;
+
+}
+.hamburger{
+    display: block;
+    cursor: pointer;
+    margin-left:/*32.625rem*/82%;
+    margin-right: 2%;
+    margin-top: -3.125rem;
+    position: fixed;
+}
+.hamburger.active .bar:nth-child(2){
+    opacity: 0;
+
+
+}
+.hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+
+
+}
+.hamburger.active .bar:nth-child(3){
+    transform: translateY(-10px) rotate(-45deg);
+   
+
+
+}
+.nav-list{
+position: fixed;
+    left: -100%;
+    flex-direction: column;
+    top: 4.3125rem;
+    gap: 0;
+    color: white; 
+ 
+    text-align: center;
+    transition: 0.3s;
+    text-align: center;
+   
+   
+    margin-top: 0px;
+    background-position-x: right;
+   
+
+
+}
+.nav-item{
+    margin: 2rem;
+    text-align: center;
+    margin-left: -7rem;
+   
+
+}
+.nav-list.active{
+    
+    left: 5.75rem;
+    background-color: rgb(255, 115, 0);
+    right: 0px;
+    height: 100%;
+   margin-top: -69px;
+   text-align: center;
+   width: 100%;
+
+}
+.logoResp img{
+    margin-top:1.1875rem;
+
+   border-radius: 1000px;
+
+    display: inline;
+    
+   }
+   .logo img{
+    display: none;
+   }
+
+ 
+
+
+/* .footer-div{
+    margin-top: 66em;
+ 
+ 
+  
+
+} */
+
+
+.body-text h1{
+    font-size: 2rem;
+    margin-top: 30%;
+}
+.navbar ul li a{
+    font-size: 1.3rem;
+    margin-left: 9rem;
+
+
+
+    
+}
+.explore{
+    margin-left: 5%;
+    margin-top: 6%;
+
+}
+
+footer p{
+    margin-top: 80vh;
+  
+}
+
+
+
+    
+
+}
+
+
+
+   /*Media Query for IPads and tablets*/
+   @media only screen and (min-width:481px) and (max-width:768px){
+    html,body{
+        height: 100%;
+    }
+
+ 
+
+
+
+    .navbar ul li a {
+     font-size: 2rem;
+    
+     
+ }
+ .navbar::before{
+     width:150%;
+ 
+  }
+  .hamburger{
+     display: block;
+     cursor: pointer;
+     margin-left: 85%;
+     margin-top: -3.3125rem;
+     position: fixed;
+ }
+ .hamburger.active .bar:nth-child(2){
+     opacity: 0;
+ 
+ 
+ }
+ .hamburger.active .bar:nth-child(1){
+     transform: translateY(8px) rotate(45deg);
+ 
+ 
+ }
+ .hamburger.active .bar:nth-child(3){
+     transform: translateY(-10px) rotate(-45deg);
+    
+ 
+ 
+ }
+ .nav-list{
+ position: fixed;
+     left: -100%;
+     flex-direction: column;
+     top: 4.3125rem;
+     gap: 0;
+     color: white; 
+  
+     text-align: center;
+     transition: 0.3s;
+     text-align: center;
+    
+    
+     margin-top: 0px;
+     background-position-x: right;
+    
+ 
+ 
+ }
+ .nav-item{
+     margin: 3rem;
+     text-align: center;
+     margin-left: -5rem;
+    
+ 
+ }
+ .nav-list.active{
+     
+      left: 8.75rem; 
+     background-color: rgb(255, 115, 0);
+     right: 0px;
+     height: 100%;
+    margin-top: -69px;
+    text-align: center;
+    width: 100%;
+ 
+ }
+ .logoResp img{
+     margin-top:1.1875rem;
+ 
+    border-radius: 1000px;
+ 
+     display: inline;
+     
+    }
+    .logo img{
+     display: none;
+    }
+    footer p{
+    margin-top: 70vh;
+   } 
+ 
+  
+}
+
+ 
+   
+   /*Media Query for small screens and laptops*/
+
+   @media only screen and (min-width:769px) and (max-width:1024px){
+    .navbar ul li a {
+     
+         margin: 6.25rem; 
+          margin-left: 2rem;   
+          
+          margin-right: 2rem;   
+    }
+   .logo img{
+    left:0.9375rem;
+   }
+   
+   .explore{
+    margin-left: 5%;
+    margin-top: 10%;
+
+}
+footer p {
+    margin-top: 69vh;
+} 
+.explore{
+    margin-top: 5%;
+}
+ 
+   
+}
+
+/*Media Query for Desktops and large screens*/
+
+   @media only screen and (min-width:1025px) and (max-width:1200px){
+    .navbar ul li a {
+     
+         margin: 6.25rem; 
+          margin-left: 5rem;   
+          
+          margin-right: 2rem;   
+    }
+   .logo img{
+    left:0.9375rem;
+   }
+   
+   .explore{
+    margin-left: 5%;
+    margin-top: 10%;
+
+}
+/* footer{
+    margin-top: 61em;
+} */
+.explore{
+    margin-top: 5%;
+}
+ 
+   
+}
+
+/*Media Query for TV  and Extra large screens*/
+
+@media only screen and (min-width:1201px) and (max-width:1500px){
+  
+  .navbar ul li a {
+   
+      margin: 6.25rem; 
+       margin-left: 5rem;   
+       
+       margin-right: 2rem;   
+ }
+ /* footer{
+    margin-top: 56em;
+    font-size: 1.1rem;
+ } */
+
+footer p{
+    margin-top: 60vh;
+}
+
+
+ }
+@media only screen and (min-width:1501px) {
+  
+  /* .navbar ul li a {
+   
+      margin: 6.25rem; 
+       margin-left: 5rem;   
+       
+       margin-right: 2rem;   
+ } */
+ /* .footer-div{
+    margin-top: 61vh;
+    font-size:3rem;
+ } */
+ .explore{
+    margin-top: 2%;
+ }
+ .body-text h1{
+    margin-top: 9.5%;
+    font-size: 8rem;
+ }
+ .explore{
+    border-radius: 39px;
+    font-size: 2rem;
+    width: 17.8125rem;
+ }
+.footer-div{
+    font-size: 3rem;
+}
+
+
+ }
+
+
+ 
+   
+ 
+
+   
+     
+     
+      
+ 
+  
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+   
+   
+   
+
+        
+      
+        
+        
+       
+
+
+
+    </style>
+</head>
+
+<body>
+   <div class="logoResp"><img src="logo.jpg" alt="logo"></div>   
+ 
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="logo.jpg" alt="logo"></div>  
+            <li class="nav-item"><a href="index.html" class="nav-link" onclick="active"><i class="fa-solid fa-house-chimney" id="Home"></i></i>Home</a></li>
+            <li class="nav-item"><a href="Social Media.html" class="nav-link"><i class="fa-solid fa-user" id="YT"></i>About</a></li>
+            <li class="nav-item"><a href="artworks.html" class="nav-link"><i class="fa-solid fa-palette" id="Art"></i>Artworks</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link"><i class="fa-solid fa-address-book"id="Contact"></i>Contact</a></li> 
+        </ul>
+          
+      
+        <div class="hamburger" >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="social-media">
+            <a href="https://instagram.com/mayukh_drawz?igshid=ZGUzMzM3NWJiOQ==" target="_blank">  <i class="fa-brands fa-instagram"></i>
+            </a>
+           
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="https://youtube.com/@MayukhDrawZ" target="_blank" id="subscribe"><i class="fa-brands fa-youtube"></i>
+            </a>
+            
+            
+        </div>
+      
+    </nav>
+    
+    
+     <div class="body-text">
+
+
+        <h1>Hi there!,Welcome to <span id="yt-span">MayukhDrawZ</span></h1>
+
+            <a href="Social Media.html" class="explore">EXPLORE</a>
+            
+                
+
+            
+        </div>
+        <footer class="footer-div">
+           <p> <span id="span4">Copyright &copy;</span><span id="span5">MayukhDrawZ.github.io</span></p>
+         </footer>
+     
+        <script src="hamburger.js"></script>
+        
+        
+
+
+
+
+    
+</body>
+</html>
